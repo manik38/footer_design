@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-sec {
+  width: 100%;
+  background-color: black;
+  padding: 50px 0px 0px;
+  position: absolute;
+  bottom: 0px;
+}
+.footer-sec .main-footer h2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.footer-sec .main-footer p {
+  color: silver;
+  font-size: 14px;
+  padding-right: ;
+}
+.footer-sec .main-footer .social-icon ul {
+}
+.footer-sec .main-footer .social-icon ul {
+  display: flex;
+}
+.footer-sec .main-footer .social-icon ul li {
+  list-style-type: none;
+  color: #000;
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px 0px 5px 0px;
+  background-color: #fff;
+  margin-left: 5px;
+}
+.footer-sec .main-footer .social-icon ul li:hover {
+  border-radius: 0px 5px 0px 5px;
+}
+.footer-sec .main-footer .social-condition h3 {
+  color: #fff;
+  font-size: 22px;
+}
+.footer-sec .main-footer .social-condition ul li {
+  list-style-type: none;
+}
+.footer-sec .main-footer .social-condition ul li a {
+  color: silver;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.footer-sec .main-footer form a.bt {
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 177px;
+  background-color: #d69a31;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+}
+
+.footer-sec .foot-copy {
+  background-color: #23262f;
+  margin-top: 30px;
+  padding: 5px 0px;
+}
+.footer-sec .foot-copy .foot-pasage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-sec .foot-copy .foot-pasage ul {
+  display: flex;
+}
+.footer-sec .foot-copy .foot-pasage ul li {
+  list-style-type: none;
+  color: #999891;
+  margin-right: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.footer-sec .foot-copy .foot-pasage p {
+  color: #999891;
+  margin-top: 6px;
+}
